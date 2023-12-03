@@ -27,12 +27,12 @@ th {
 
 #job-title {
   color: green;
-  text-align: right;
+  text-align: left;
 }
 
 #top-menu-bar {
   text-align: center;
-  background-color: #3b3355;
+  background-color: #24e01373;
   color: #ffffff;
   margin: 0;
   padding: 2px;
