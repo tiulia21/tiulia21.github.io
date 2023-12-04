@@ -12,7 +12,14 @@ function hide(id) {
   document.getElementById(id).style.display = "none";
 }
 
+function showPage(id) {
+  hide(activePage);
+  show(id);
+  activePage = id;
+}
+
 function showHome() {
+  showOage("Home");
   hide(activePage);
   show("Home");
   activePage = "Home";
