@@ -40,12 +40,12 @@ th {
   text-align: left;
 }
 header {
-  background-image: linear-gradient(to right #025500.3);
+  background-color: #2c96a478;
 }
 #top-menu-bar {
   text-align: center;
-  background-color: #24e01373;
-  color: #ffffff;
+  background-color: linear-gradient(to right #53b655, #0f6f0f);
+  color: rgb(103, 97, 97);
   margin: 0;
   padding: 2px;
 }
