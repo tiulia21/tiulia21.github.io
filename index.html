@@ -15,8 +15,10 @@
     </div>
     <div>
     <h2>Todea Iulia</h2>
-</div>
 <p id="job-title">Student FastTrackIT</p>
+</div>
+</div>
+
 <ul id="top-menu-bar">
    <li><a href="#" onclick="showPage('Home')">Home</a></li>
    <li><a href="#" onclick="showPage('Skills')">Skills</a></li>
@@ -27,53 +29,62 @@
 
     <section id="content">
       <div id="side-menu">
-        <section><form action="secretara.html"></form>   
+        <section>
+            <form action="secretara.html">   
 <h2>Contact</h2>
 <div>
     <label for="userEmail">Email</label>
     <input type="email" name="email" id="userEmail"
-    placeholder="your@email.com"/>
-    
- </div>
+    placeholder="your@email.com" required
+    />
+    </div>
+
 <div>
     <label for="userName">Your Name</label>
     <input type="text" name="name" id="userName"
     placeholder="Enter your name"
     required/>
 </div>
+
 <button type="submit">Send</button>
 </form>
-
 </section>
-        <section><p>
+
+        <section>
+            <p>
     start server: CTRL + Shift + P ->Browser Sync Mode in Browser ->Enter /
     ->Enter
-</p></section>
+</p>
+</section>
       </div>
+
       <div id="main">
-        <div>
+        <div id="Home" class="page" style="display:none">
         <h2>Home</h2>
         <p>Welcome...</p>
       </div>
-      <div id style="display:none" >
-      <ul>
 
+      <div id= "Skills" class="page" style="display:none">
+        <h2>Skills</h2>
+      <ul>
     <li class="favorite">HTML</li>
     <li>CSS</li>
     <li class="favorite">JS</li>
-</ul>
-      </div>
-      <div>
+   </ul>
+  </div>
+
+      <div id="Projects" class="page">
 <h2>Projects</h2>
 <p>.......</p>
-      <div>
+      </div>
+
+      <div style="display: none" class="page" id="Languages"
 <h2>Known Languages</h2>
 <table border="1">
     <tr>
         <th>Language</th>
     <th>Level</th>
     </tr>
-</div>
     <tr>
         <td class="favorite">Romanian</td>
         <td>Native</td>
@@ -85,6 +96,7 @@
 </table>
 </div>
     </section>
+    
     <footer>Open my
 <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form/"target="_blank">LinkedIn</a>
 account

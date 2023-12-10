@@ -6,6 +6,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: f;
 }
 #content {
   flex: 1;
@@ -17,6 +18,13 @@ body {
 }
 #main {
   flex: 3;
+}
+.page {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow 0 0 0 1px rgba(0, 0, 0, 0.15)
 }
 td {
   padding: 4px;
