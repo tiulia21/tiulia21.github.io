@@ -24,7 +24,7 @@ body {
   padding: 10px;
   margin: 10px;
   border-radius: 4px;
-  box-shadow 0 0 0 1px rgba(0, 0, 0, 0.15)
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
 }
 td {
   padding: 4px;
@@ -34,7 +34,8 @@ th {
 }
 
 #job-title {
-  color: green;
+  background-image: linear-gradient(to right, #00ff00, #008000);
+  color: darkslategrey;
   text-align: left;
 }
 
