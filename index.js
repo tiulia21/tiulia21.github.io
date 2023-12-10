@@ -19,7 +19,7 @@ function showPage(id) {
 }
 
 function showHome() {
-  showOage("Home");
+  showPage("Home");
   hide(activePage);
   show("Home");
   activePage = "Home";
