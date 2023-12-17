@@ -34,8 +34,8 @@ th {
 }
 
 #job-title {
-  background-image: linear-gradient(to right, #00ff00, #008000);
-  background-color: azure;
+header {
+  background-color:#2c96a478 ;
   color: darkslategrey;
   text-align: left;
 }
