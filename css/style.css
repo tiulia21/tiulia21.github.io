@@ -34,7 +34,6 @@ th {
 }
 
 #job-title {
-  background-color: #2c96a478;
   color: darkslategrey;
   text-align: left;
 }
@@ -47,6 +46,7 @@ header {
   color: rgb(103, 97, 97);
   margin: 0;
   padding: 2px;
+  font-weight: bold;
 }
 #top-menu-bar li {
   display: inline-block;
@@ -57,13 +57,13 @@ header {
 #top-menu-bar a {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
   padding: 5px 10px;
   border-radius: 4px;
   transition: 0.5s;
+  font-size: 25px;
 }
 #top-menu-bar a:visited {
-  color: #fff;
+  color: rgb(55, 115, 158);
 }
 
 #top-menu-bar a.active,
