@@ -34,14 +34,17 @@ th {
   padding: 5px;
 }
 
+header h2,
 #job-title {
   color: darkslategrey;
   text-align: left;
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 header {
+  display: flex;
+  align-items: end;
   background-image: linear-gradient(
     90deg,
     rgba(127, 219, 180, 0.684) 0%,
@@ -50,16 +53,17 @@ header {
   );
 }
 header img {
-  border-radius: 50px;
+  border-radius: 100px;
   border: 2px solid whitesmoke;
   width: 100px;
   padding: 5px;
   height: auto;
 }
+
 #top-menu-bar {
   text-align: center;
   color: rgb(103, 97, 97);
-  margin: 0;
+  margin: 10px;
   padding: 2px;
   font-weight: bold;
 }
