@@ -20,5 +20,15 @@ function showPage(id) {
   show(id);
   activePage = id;
 }
+
+function initEvents() {
+  var toolbar = document.querySelector("#top-menu-bar");
+  toolbar.addEventListener("click", function (e) {
+    var page = e.target.innerHtml.toLowerCase();
+    console.warn("event", page);
+    showPage(page);
+  });
+}
 // executii
 showPage(activePage);
+initEvents();
