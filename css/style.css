@@ -38,7 +38,9 @@ th {
   color: darkslategrey;
   text-align: left;
   font-size: 20px;
+  margin-left: 50px;
 }
+
 header {
   background-image: linear-gradient(
     90deg,
@@ -46,6 +48,13 @@ header {
     rgba(164, 213, 210, 0.7707457983193278) 35%,
     rgba(0, 212, 255, 1) 100%
   );
+}
+header img {
+  border-radius: 50px;
+  border: 2px solid whitesmoke;
+  width: 100px;
+  padding: 5px;
+  height: auto;
 }
 #top-menu-bar {
   text-align: center;
