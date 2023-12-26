@@ -1,5 +1,5 @@
 // variable publice
-var activePage = "Projects";
+var activePage = "projects";
 
 // functii publice
 function hide(id) {
@@ -30,6 +30,6 @@ function initEvents() {
   });
 }
 
-// excutii
+// executii
 showPage(activePage);
 initEvents();
