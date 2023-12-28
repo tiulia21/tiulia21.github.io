@@ -21,6 +21,13 @@ body {
   width: 200px;
   height: 600px;
 }
+button {
+  border: darkslategray solid 2px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 50px;
+  cursor: pointer;
+}
 #main {
   flex: 3;
   margin-right: 20%;
