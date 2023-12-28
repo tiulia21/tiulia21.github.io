@@ -84,6 +84,10 @@ header img {
   display: inline-block;
   padding: 0;
   margin: 0;
+  outline-style: double;
+  outline-color: whitesmoke;
+  border-radius: 20px;
+  outline-width: 4px;
 }
 
 #top-menu-bar a {
@@ -102,6 +106,7 @@ header img {
 #top-menu-bar a:hover {
   color: #334455;
   background: #fff;
+  border-radius: 20px;
 }
 
 .favorite {
