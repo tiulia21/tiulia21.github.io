@@ -9,5 +9,10 @@ body {
 h1 {
   color: green;
   text-align: center;
-  background-color: lightgreen;
+}
+h {
+  font-size: large;
+  color: white;
+  background-color: green;
+  text-align: center;
 }
