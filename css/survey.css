@@ -1,0 +1,13 @@
+html {
+  height: 90%;
+}
+body {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: green;
+  text-align: center;
+  background-color: lightgreen;
+}
