@@ -23,12 +23,3 @@ h {
   border: 2px solid darkolivegreen;
   padding: 10px;
 }
-.answer {
-  display: grid;
-  align-content: end;
-  color: lightgrey;
-}
-form {
-  font-size: 20px;
-  background-color: aquamarine;
-}
