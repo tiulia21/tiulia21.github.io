@@ -16,3 +16,19 @@ h {
   background-color: green;
   text-align: center;
 }
+.question {
+  display: grid;
+  grid-auto-columns: 40%;
+  background-color: lightgrey;
+  border: 2px solid darkolivegreen;
+  padding: 10px;
+}
+.answer {
+  display: grid;
+  align-content: end;
+  color: lightgrey;
+}
+form {
+  font-size: 20px;
+  background-color: aquamarine;
+}
