@@ -18,9 +18,15 @@ h {
 }
 .check {
   background-color: lightgrey;
-  display: flexbox;
   margin-left: 70px;
 }
 .text {
   background-color: lightgray;
+  font-size: large;
+}
+div {
+  flex: 4;
+  display: float;
+  position: relative;
+  margin-left: 10%;
 }
