@@ -17,7 +17,10 @@ h {
   text-align: center;
 }
 .check {
-  background-color: lightgray;
+  background-color: lightgrey;
   display: flexbox;
   margin-left: 70px;
+}
+.text {
+  background-color: lightgray;
 }
