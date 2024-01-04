@@ -17,9 +17,13 @@ h {
   text-align: center;
 }
 .question {
-  display: grid;
-  grid-auto-columns: 40%;
+  display: flex;
+  grid-row: span;
   background-color: lightgrey;
   border: 2px solid darkolivegreen;
   padding: 10px;
+}
+.answer {
+  display: flex;
+  grid-row: span;
 }
