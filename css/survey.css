@@ -16,14 +16,8 @@ h {
   background-color: green;
   text-align: center;
 }
-.question {
-  display: flex;
-  grid-row: span;
-  background-color: lightgrey;
-  border: 2px solid darkolivegreen;
-  padding: 10px;
-}
-.answer {
-  display: flex;
-  grid-row: span;
+.check {
+  background-color: lightgray;
+  display: flexbox;
+  margin-left: 70px;
 }
