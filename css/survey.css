@@ -1,10 +1,9 @@
 html {
-  height: 80%;
+  height: 90%;
   background-color: lightgoldenrodyellow;
-  border-style: groove;
 }
 body {
-  padding: 100px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -12,38 +11,44 @@ h2,
 h3 {
   color: green;
   text-align: center;
+  padding-bottom: 20px;
 }
-
-}
-
 .check {
   background-color: lightgrey;
   margin-left: 70px;
+  border: 2px solid green;
 }
 .text {
   background-color: lightgray;
   font-size: large;
+  border: 2px solid green;
 }
 div {
-  flex: 3;
-  display: float;
-  
+  flex: 12;
+  padding-bottom: 20px;
+}
+.main {
+  text-align: center;
+}
 
- 
+.scale {
+  margin-left: 20%;
 }
 p {
-
-  padding: 5px;
+  padding: 20px;
   color: black;
 }
 
 td {
   text-align: left;
-  padding-right:50px;
+  padding-right: 50px;
   border-bottom: 2px solid green;
-  color:gray;
+  color: gray;
 }
 th {
   padding-right: 80px;
 }
-
+footer {
+  padding: 40px;
+  text-align: center;
+}
