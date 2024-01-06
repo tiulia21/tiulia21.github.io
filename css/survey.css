@@ -3,9 +3,14 @@ html {
   background-color: lightgoldenrodyellow;
 }
 body {
-  padding: 60px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
+  border: 2px solid gray;
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 20%;
+  background-color: lightgoldenrodyellow;
 }
 h2,
 h3 {
