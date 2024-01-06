@@ -40,8 +40,9 @@ div {
   margin-left: 50%;
 }
 p {
-  padding: 20px;
+  padding: 10px;
   color: black;
+  margin-right: 5%;
 }
 
 td {
@@ -52,6 +53,10 @@ td {
 }
 th {
   padding-right: 80px;
+}
+.choose {
+  margin-left: 67%;
+  word-spacing: 30px;
 }
 footer {
   padding: 40px;
