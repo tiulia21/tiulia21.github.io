@@ -1,12 +1,12 @@
 html {
   height: 90%;
-  background-color: lightgoldenrodyellow;
+  background-color: yellowgreen;
 }
 body {
   padding: 40px;
-  display: flex;
   flex-direction: column;
   border: 2px solid gray;
+  border-style: dotted double;
   width: 75%;
   margin-left: 10%;
   margin-right: 20%;
@@ -37,7 +37,7 @@ div {
 }
 
 .scale {
-  margin-left: 20%;
+  margin-left: 50%;
 }
 p {
   padding: 20px;
