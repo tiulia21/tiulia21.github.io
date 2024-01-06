@@ -1,33 +1,49 @@
 html {
-  height: 90%;
+  height: 80%;
+  background-color: lightgoldenrodyellow;
+  border-style: groove;
 }
 body {
   padding: 100px;
   display: flex;
   flex-direction: column;
 }
-h1 {
+h2,
+h3 {
   color: green;
   text-align: center;
 }
-h {
-  font-size: large;
-  color: white;
-  background-color: green;
-  text-align: center;
+
 }
+
 .check {
   background-color: lightgrey;
-  margin-left: 80px;
+  margin-left: 70px;
 }
 .text {
   background-color: lightgray;
   font-size: large;
 }
 div {
-  flex: 4;
+  flex: 3;
   display: float;
-  position: relative;
-  margin-left: 10%;
-  padding-bottom: 10px;
+  
+
+ 
 }
+p {
+
+  padding: 5px;
+  color: black;
+}
+
+td {
+  text-align: left;
+  padding-right:50px;
+  border-bottom: 2px solid green;
+  color:gray;
+}
+th {
+  padding-right: 80px;
+}
+
