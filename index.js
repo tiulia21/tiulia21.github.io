@@ -1,5 +1,5 @@
 // variable publice
-var activePage = "projects";
+var activePage = "home";
 
 // functii publice
 function hide(id) {
@@ -16,7 +16,12 @@ function show(id) {
 
 function showPage(id) {
   console.info("show page", id);
+  var prevLink = document.querySelector("a[data-page=" + activePage + "]");
+  prevLink.classList.remove("active");
   hide(activePage);
+
+  var nextLink = document.querySelector("a[data-page=" + id + "]");
+  nextLink.classList.add("active");
   show(id);
   activePage = id;
 }
@@ -24,12 +29,14 @@ function showPage(id) {
 function initEvents() {
   var toolbar = document.querySelector("#top-menu-bar");
   toolbar.addEventListener("click", function (e) {
-    var page = e.target.innerHTML.toLowerCase();
-    console.warn("event", page);
-    showPage(page);
+    if (e.target.matches("a")) {
+      var page = e.target.dataset.page;
+      console.warn("click", page);
+      showPage(page);
+    }
   });
 }
 
-// executii
+// excutii
 showPage(activePage);
 initEvents();
