@@ -1,5 +1,5 @@
 // variable publice
-var activePage = "home";
+var activePage = "skills";
 
 // functii publice
 function hide(id) {
@@ -37,6 +37,13 @@ function initEvents() {
   });
 }
 
+function showskills() {
+  var ul = document.querySelector("#skills ul");
+  ul.innerHTML = "<li>HTML</li>";
+  ul.innerHTML = ul.innerHTML + "<li>CSS</li>";
+  ul.innerHTML += "<li>JS</li>";
+}
 // excutii
+showskills();
 showPage(activePage);
 initEvents();
