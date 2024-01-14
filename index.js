@@ -42,7 +42,7 @@ function showskills() {
   var skills = ["HTML", "CSS", "JS"];
 
   var text = skills.map(function (skill) {
-    console.info("inside %0 map", a);
+    console.info("inside %0 map", skill);
     return `<li>${skill}</li>`;
   });
   console.warn(text);
