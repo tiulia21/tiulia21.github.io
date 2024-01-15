@@ -39,11 +39,24 @@ function initEvents() {
 
 function showskills() {
   var ul = document.querySelector("#skills ul");
-  var skills = ["HTML", "CSS", "JS"];
+  var skills = [
+    {
+      name: "HTML",
+      endorcements: 3,
+    },
+    {
+      name: "CSS",
+      endorcements: 5,
+    },
+    {
+      name: "JS",
+      endorcements: 4,
+    },
+  ];
 
   var text = skills.map(function (skill) {
     console.info("inside %0 map", skill);
-    return `<li>${skill}</li>`;
+    return `<li>${skill.name} <span> - ${skill.endorcements}</span></li>`;
   });
   console.warn(text);
 
