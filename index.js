@@ -42,30 +42,8 @@ function initEvents() {
   });
 }
 
-function showskills() {
+function showSkills(skills) {
   var ul = $("#skills ul");
-  console.log("show skills");
-  var skills = [
-    {
-      name: "HTML",
-      endorcements: 3,
-    },
-    {
-      name: "CSS",
-      endorcements: 5,
-      favorit: true,
-    },
-    {
-      name: "JS",
-      endorcements: 4,
-      favorite: true,
-    },
-    {
-      name: "Word",
-      endorcements: 1,
-      favorite: false,
-    },
-  ];
 
   var text = skills.map(function (skill) {
     var cls = "";
@@ -80,6 +58,6 @@ function showskills() {
   ul.innerHTML = text.join("");
 }
 // excutii
-showskills();
+// showSkills([]);
 showPage(activePage);
 initEvents();
