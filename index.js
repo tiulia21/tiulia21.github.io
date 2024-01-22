@@ -62,10 +62,8 @@ showPage(activePage);
 initEvents();
 
 function loadSkills() {
-  var promise = fetch("skill.json");
-  promise.then(function (r) {
-    const jsonPromise = r.json();
-    jsonPromise.then(function (skills) {
+  fetch("skill.json").then(function (r) {
+    r.json().then(function (skills) {
       showSkills(skills);
     });
   });
