@@ -58,6 +58,20 @@ function showSkills(skills) {
   ul.innerHTML = text.join("");
 }
 // excutii
-// showSkills([]);
 showPage(activePage);
 initEvents();
+
+function loadSkills() {
+  var promise = fetch("skill.json");
+  promise.then(function (r) {
+    const jsonPromise = r.json();
+    jsonPromise.then(function (skills) {
+      showSkills(skills);
+    });
+  });
+}
+
+//executii
+showPage(activePage);
+initEvents();
+loadSkills();
