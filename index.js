@@ -33,7 +33,7 @@ function showPage(id) {
 
 function initEvents() {
   const toolbar = $("#top-menu-bar");
-  toolbar.addEventListener("click", function (e) {
+  toolbar.addEventListener("click", (e) => {
     if (e.target.matches("a")) {
       const page = e.target.dataset.page;
       console.warn("click", page);
@@ -55,7 +55,7 @@ function showSkills(skills) {
   skills.sort(sortByName);
   const ul = $("#skills ul");
 
-  const text = skills.map(function (skill) {
+  const text = skills.map((skill) => {
     let cls = "";
     if (skill.favorite === true) {
       cls = "favorite";
@@ -72,8 +72,8 @@ showPage(activePage);
 initEvents();
 
 function loadSkills() {
-  fetch("skill.json").then(function (r) {
-    r.json().then(function (skills) {
+  fetch("skill.json").then((r) => {
+    r.json().then((skills) => {
       showSkills(skills);
     });
   });
